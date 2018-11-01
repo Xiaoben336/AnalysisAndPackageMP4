@@ -5,3 +5,6 @@ MediaExtractor&amp;MediaMuxer解析和封装MP4文件。提取input.mp4文件中
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 如果是网络资源的话需要添加权限：<uses-permission android:name="android.permission.INTERNET"/>
+
+如果报错：System.err: java.io.IOException: Failed to instantiate extractor.
+解决方式：检查路径、检查权限、检查后缀名
